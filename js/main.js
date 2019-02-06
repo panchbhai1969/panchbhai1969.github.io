@@ -111,28 +111,6 @@
 	    }
 		});
 
-		$('.author-slider').owlCarousel({
-			autoplay: true,
-			loop: true,
-			items:1,
-			margin: 30,
-			stagePadding: 0,
-			nav: true,
-			dots: true,
-			navText: ['<span class="ion-ios-arrow-back">', '<span class="ion-ios-arrow-forward">'],
-			responsive:{
-				0:{
-					items: 1
-				},
-				600:{
-					items: 1
-				},
-				1000:{
-					items: 1
-				}
-			}
-		});
-
 	};
 	carousel();
 
@@ -174,32 +152,6 @@
 	};
 	contentWayPoint();
 
-	var counter = function() {
-		
-		$('#section-counter').waypoint( function( direction ) {
-
-			if( direction === 'down' && !$(this.element).hasClass('ftco-animated') ) {
-
-				var comma_separator_number_step = $.animateNumber.numberStepFactories.separator(',')
-				$('.number').each(function(){
-					var $this = $(this),
-						num = $this.data('number');
-						console.log(num);
-					$this.animateNumber(
-					  {
-					    number: num,
-					    numberStep: comma_separator_number_step
-					  }, 7000
-					);
-				});
-				
-			}
-
-		} , { offset: '95%' } );
-
-	}
-	counter();
-
 
 	// magnific popup
 	$('.image-popup').magnificPopup({
@@ -207,7 +159,7 @@
     closeOnContentClick: true,
     closeBtnInside: false,
     fixedContentPos: true,
-    // mainClass: 'mfp-no-margins mfp-with-zoom', // class to remove default margin from left and right side
+    mainClass: 'mfp-no-margins mfp-with-zoom', // class to remove default margin from left and right side
      gallery: {
       enabled: true,
       navigateByImgClick: true,

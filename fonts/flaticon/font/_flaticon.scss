@@ -1,6 +1,6 @@
     /*
     Flaticon icon font: Flaticon
-    Creation date: 12/12/2018 14:43
+    Creation date: 05/07/2018 04:38
     */
 
     @font-face {
@@ -36,16 +36,18 @@
   font-smoothing: antialiased;
     }
 
-    .flaticon-printing-photo:before { content: "\f100"; }
-.flaticon-focusing-target:before { content: "\f101"; }
-.flaticon-camera:before { content: "\f102"; }
-.flaticon-polaroid-pictures:before { content: "\f103"; }
-.flaticon-big-lens:before { content: "\f104"; }
-.flaticon-film:before { content: "\f105"; }
+    .flaticon-car:before { content: "\f100"; }
+.flaticon-resort:before { content: "\f101"; }
+.flaticon-yatch:before { content: "\f102"; }
+.flaticon-map-of-roads:before { content: "\f103"; }
+.flaticon-compass:before { content: "\f104"; }
+.flaticon-around:before { content: "\f105"; }
+.flaticon-sailboat:before { content: "\f106"; }
     
-    $font-Flaticon-printing-photo: "\f100";
-    $font-Flaticon-focusing-target: "\f101";
-    $font-Flaticon-camera: "\f102";
-    $font-Flaticon-polaroid-pictures: "\f103";
-    $font-Flaticon-big-lens: "\f104";
-    $font-Flaticon-film: "\f105";
+    $font-Flaticon-car: "\f100";
+    $font-Flaticon-resort: "\f101";
+    $font-Flaticon-yatch: "\f102";
+    $font-Flaticon-map-of-roads: "\f103";
+    $font-Flaticon-compass: "\f104";
+    $font-Flaticon-around: "\f105";
+    $font-Flaticon-sailboat: "\f106";
